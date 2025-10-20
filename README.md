@@ -24,4 +24,4 @@ Survive as long as possible while collecting scrap to upgrade your ship and reac
 ---
 
 ##  Conceptual Mock-Ups
-GamePlayMockup.png
+/GamePlayMockup.png
