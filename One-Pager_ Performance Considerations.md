@@ -22,4 +22,4 @@ Identify at least one common strategy to address each performance concerns
   * Implement an object pool for asteroids, scrap, and explosion effects to reuse existing instances instead of destroying and creating new ones.
 
 Summarize how you might use one or more such strategies for your own game and why  
-I’ll focus on object pooling first since the game continuously spawns scrap and asteroids. Reusing inactive objects will cut down on CPU and garbage-collection spikes. Then, I will simplify collision checks by using layers and disabling physics for far off objects. Finally, I will keep particle effects lightweight by creating one shared explosion prefab and baked glow sprites for light flashes.
+I’ll focus on object pooling first since the game continuously spawns scrap and asteroids. Reusing inactive objects will cut down on CPU and garbage-collection spikes. Then, I will simplify collision checks by using layers and disabling physics for far off objects. Finally, I will keep particle effects lightweight by creating one shared explosion prefab and baked glow sprites for light flashes. 
